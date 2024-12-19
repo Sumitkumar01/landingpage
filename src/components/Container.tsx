@@ -1,7 +1,7 @@
 interface ContainerProps {
   className?: string;
   children: React.ReactNode;
-  id: string;
+  id?: string;
 }
 
 const Container: React.FC<ContainerProps> = ({

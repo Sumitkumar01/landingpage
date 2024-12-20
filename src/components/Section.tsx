@@ -3,7 +3,7 @@ interface SectionProps {
   lgpy?: number;
   py?: number;
   children: React.ReactNode;
-  id: string;
+  id?: string;
 }
 
 const Section: React.FC<SectionProps> = ({

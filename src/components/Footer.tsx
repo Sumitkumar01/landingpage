@@ -80,7 +80,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className="bg-clr1 pb-10">
+    <footer className="bg-clr1 pb-10 max-w-[1920px] mx-auto w-full">
       <SectionWithContainer sectionClassName="bg-clr1 text-white">
         <div className=" flex items-center lg:justify-between justify-center gap-5">
           <h2 className="heading3 tracking-wide lg:w-[60%] ">
